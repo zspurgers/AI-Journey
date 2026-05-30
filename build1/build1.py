@@ -13,7 +13,7 @@ if folder_path.exists() and folder_path.is_dir(): #checks if the path exists and
         suffix_text = item.suffix.upper().replace(".", "") #gets the file extension, converts it to uppercase, and removes the dot
         current_type = suffix_text if suffix_text else "NO EXTENSION" #if there is no extension, it will say "NO EXTENSION"
 
-        destination_folder = folder_path / ( f"{current_type}_Files" ) #creates a new folder path based on the file type
+        destination_folder = folder_path / f"{current_type}_Files" #creates a new folder path based on the file type
         destination_folder.mkdir(exist_ok=True) #creates the new folder if it doesn't already exist
         new_file_path = destination_folder / item.name #creates the new file path in the new folder
         if new_file_path.exists():
