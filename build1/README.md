@@ -4,12 +4,15 @@ A Python script that scans a folder and sorts every file into a subfolder named 
 
 ## Run it
 
-1. Open [build1.py](./build1.py) and set `folder_path` to the folder you want to sort.
-2. Run:
+```
+python build1.py <folder_path>
+```
 
-   ```
-   python build1.py
-   ```
+Example:
+
+```
+python build1.py "C:\Users\zacha\Documents\Messy Folder"
+```
 
 ## What I took away
 

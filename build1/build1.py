@@ -1,6 +1,11 @@
+import sys
 from pathlib import Path #importing the Path library to work with file paths
 
-folder_path = Path(r"C:\Users\zacha\Hub\Inbox\test_files") #specifies the path to the folder we want to work with
+if len(sys.argv) < 2:
+    print("Usage: python build1.py <folder_path>")
+    sys.exit(1)
+
+folder_path = Path(sys.argv[1]) #specifies the path to the folder we want to work with
 
 if folder_path.exists() and folder_path.is_dir(): #checks if the path exists and is a directory/folder
 
