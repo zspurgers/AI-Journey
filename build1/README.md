@@ -5,13 +5,13 @@ A Python script that scans a folder and sorts every file into a subfolder named 
 ## Run it
 
 ```
-python build1.py <folder_path>
+python file_sorter.py <folder_path>
 ```
 
 Example:
 
 ```
-python build1.py "C:\Users\zacha\Documents\Messy Folder"
+python file_sorter.py "C:\Users\zacha\Documents\Messy Folder"
 ```
 
 ## What I took away
