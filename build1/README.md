@@ -1,6 +1,6 @@
-# Build 1 — File Sorter
+# Build 1 — File Organizer
 
-A Python script that scans a folder and sorts every file into a subfolder named after its extension (e.g. `PDF_Files/`, `JPG_Files/`). Files with no extension go into `NO EXTENSION_Files/`. If a filename already exists at the destination, the script appends a counter (`report_1.pdf`, `report_2.pdf`) instead of overwriting.
+A Python script that scans a folder and organizes every file into a subfolder named after its extension (e.g. `PDF_Files/`, `JPG_Files/`). Files with no extension go into `NO EXTENSION_Files/`. If a filename already exists at the destination, the script appends a counter (`report_1.pdf`, `report_2.pdf`) instead of overwriting.
 
 ## Run it
 
