@@ -6,7 +6,8 @@ A running log of the projects I'm building as I learn to code with AI as a colla
 
 | # | Project | What it does |
 |---|---------|--------------|
-| 1 | [build1 — File Sorter](./build1) | Sorts files in a folder into subfolders by extension, handling duplicate filenames safely. |
+| 1 | [build1 — File Organizer](./build1) | Sorts files in a folder into subfolders by extension, handling duplicate filenames safely. |
+| 2 | [build2 — Plain Text Summarizer](./build2) | Reads a .txt file and uses the Claude API to print a summary to the terminal
 
 ## About
 
