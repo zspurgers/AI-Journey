@@ -37,4 +37,5 @@ else:
             counter += 1 #increments the counter for the next iteration if needed
       
         item.rename(new_file_path) #moves the file to the new folder
+        
         print(f"📄 Moved: {item.name} ➡️  {new_file_path.name}")
