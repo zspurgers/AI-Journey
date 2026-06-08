@@ -1,8 +1,8 @@
 import os
 import anthropic
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 
-load_dotenv() 
+load_dotenv(find_dotenv())
 
 file = open("sample.txt", "r")
 file_contents = file.read()
