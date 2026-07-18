@@ -9,6 +9,7 @@ A running log of the projects I'm building as I learn to code with AI as a colla
 | 1 | [build1 — File Organizer](./build1) | Sorts files in a folder into subfolders by extension, handling duplicate filenames safely. |
 | 2 | [build2 — Plain Text Summarizer](./build2) | Reads a .txt file and uses the Claude API to print a summary to the terminal |
 | 3 | [build3 — Multi-Document Summarizer](./build3) | Reads every .md file in a folder, summarizes each one, and writes a combined index file |
+| 4 | [build4 — AI Onboarding Assistant](./build4) | Answers new-hire questions grounded in company docs, and says "I don't know" instead of guessing |
 
 ## About
 
